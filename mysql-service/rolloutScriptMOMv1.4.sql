@@ -1,3 +1,5 @@
+use domo_mom_db;
+
 create table directory (user_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, email TEXT, phone_number TEXT);
 insert into directory (email, phone_number) values ('homer@thesimpsons.com', '+1 888 123 1111');
 insert into directory (email, phone_number) values ('marge@thesimpsons.com', '+1 888 123 1112');
